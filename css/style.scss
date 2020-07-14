@@ -1,4 +1,20 @@
-h1{
-    color: red;
-}
-@import "./1-helpers/variables.scss"
+
+
+// HELPERS
+
+@import "./1-helpers/variables";
+@import "./1-helpers/functions";
+@import "./1-helpers/mixins";
+
+
+// TOOLS
+
+@import "./2-tools/reset";
+
+
+// MODULES
+
+@import "./4-modules/navbar";
+@import "./4-modules/banner";
+@import "./4-modules/footer";
+@import "./4-modules/cards";

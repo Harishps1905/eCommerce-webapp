@@ -1,4 +1,45 @@
 footer{
-    height: 200px;
-    background-color: blue;
+    font-family: $font_stack_1;
+    height: 300px;
+    background-color: $black_color;
+    text-align: center;
+    .footer-head{
+        margin: 40px 0;
+        font-family: $font_stack_1;
+        font-weight: bold;
+        font-size: 30px;
+        color: $offwhite;
+    }
+    .footer-mail{
+        background-color: transparent;
+        border-color: $black_color;
+        border-bottom-color: $offwhite;
+        border-radius: 3.9px;
+        width: 250px;
+        height: 50px;
+        &::placeholder{
+            font-family: $font_stack_2;
+            font-size: 20px;
+        }
+    }
+    .footer-btn{
+        margin: 50px 0 0 0;
+        button{
+            background-color: transparent;
+            color: $offwhite;
+            padding: 10px 35px;
+            border-radius: 20px;
+            font-weight: 600;
+            border-color: $offwhite;
+            
+            &:hover{
+                color: $black_color;
+                background-color: $offwhite;
+                border: $black_color;
+                transition-duration: 0.8s;
+                font-weight: 600;
+                
+            }
+        }
+    }
 }

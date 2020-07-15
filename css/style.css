@@ -326,15 +326,14 @@ table {
 }
 
 #banner {
+  margin-top: 81px;
   height: 400px;
   background-color: red;
 }
 
 footer {
   font-family: "Roboto", sans-serif;
-  height: 300px;
   background-color: #000;
-  text-align: center;
 }
 
 footer .footer-head {
@@ -375,7 +374,7 @@ footer .footer-mail::placeholder {
 }
 
 footer .footer-btn {
-  margin: 50px 0 0 0;
+  margin: 50px 0;
 }
 
 footer .footer-btn button {

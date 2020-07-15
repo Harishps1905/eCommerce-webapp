@@ -1,8 +1,8 @@
 footer{
     font-family: $font_stack_1;
-    height: 300px;
+
     background-color: $black_color;
-    text-align: center;
+    // text-align: center;
     .footer-head{
         margin: 40px 0;
         font-family: $font_stack_1;
@@ -23,7 +23,7 @@ footer{
         }
     }
     .footer-btn{
-        margin: 50px 0 0 0;
+        margin: 50px 0;
         button{
             background-color: transparent;
             color: $offwhite;

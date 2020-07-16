@@ -334,6 +334,24 @@ table {
 footer {
   font-family: "Roboto", sans-serif;
   background-color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+footer .col-height {
+  height: 325px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #606060;
+  font-weight: 500;
+}
+
+footer a:hover {
+  text-decoration: none;
+  font-weight: 600;
+  color: #f6f6f6;
 }
 
 footer .footer-head {
@@ -374,7 +392,7 @@ footer .footer-mail::placeholder {
 }
 
 footer .footer-btn {
-  margin: 50px 0;
+  margin: 60px 0;
 }
 
 footer .footer-btn button {
@@ -390,9 +408,84 @@ footer .footer-btn button:hover {
   color: #000;
   background-color: #f6f6f6;
   border: #000;
-  -webkit-transition-duration: 0.8s;
-          transition-duration: 0.8s;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
   font-weight: 600;
+}
+
+footer .goto {
+  position: relative;
+}
+
+footer .goto ul li {
+  margin: 0 0 12px 31px;
+}
+
+footer .goto ul li::before {
+  content: "--";
+  color: #f6f6f6;
+  vertical-align: 3px;
+  font-weight: 400;
+}
+
+footer .goto .white-line {
+  position: absolute;
+  width: 3px;
+  height: 132px;
+  top: 68px;
+  left: 51px;
+  background-color: #f6f6f6;
+}
+
+footer .contact {
+  position: relative;
+}
+
+footer .contact ul li {
+  margin: 0 0 12px 54px;
+}
+
+footer .contact ul span {
+  position: absolute;
+  left: 46px;
+}
+
+footer .contact ul span::before {
+  content: "--";
+  color: #f6f6f6;
+  vertical-align: 3px;
+  font-weight: 400;
+}
+
+footer .contact .white-line {
+  position: absolute;
+  width: 3px;
+  height: 127px;
+  top: 68px;
+  left: 51px;
+  background-color: #f6f6f6;
+}
+
+footer .contact .social .social-media img {
+  width: 40px;
+  margin: 5px 17px;
+  border-radius: 33px;
+}
+
+footer .contact .social .social-media img:hover {
+  -webkit-box-shadow: 4px 4px 13px -4px;
+          box-shadow: 4px 4px 13px -4px;
+  -webkit-transition: ease .7s;
+  transition: ease .7s;
+}
+
+@media (max-width: 575.98px) {
+  footer .contact {
+    font-size: 20px;
+  }
+  footer .contact .white-line {
+    height: 146px;
+  }
 }
 
 #cards {

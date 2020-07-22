@@ -73,8 +73,8 @@
                                 </li>
                             </ul>
                         </div>
-                        <!-- <div class="hearer_icon d-flex">
-                            <div class="dropdown cart">
+                        <div class="hearer_icon d-flex">
+                            <!-- <div class="dropdown cart">
                                 <a class="dropdown-toggle" href="#" id="navbarDropdown3" role="button"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i class="ti-bag"></i>
@@ -84,30 +84,49 @@
     
                                     </div>
                                 </div>
-                            </div>
-                            <a id="search_1" href="javascript:void(0)"><i class="ti-search"></i></a>
-                        </div> -->
+                            </div> -->
+                            <a id="search_1" href="javascript:void(0)">Explore</a>
+                        </div>
                     </nav>
                 </div>
             </div>
         </div>
-        <!-- <div class="search_input" id="search_input_box">
+        <div class="search_input" id="search_input_box">
             <div class="container ">
                 <form class="d-flex justify-content-between search-inner">
                     <input type="text" class="form-control" id="search_input" placeholder="Search Here">
                     <button type="submit" class="btn"></button>
-                    <span class="ti-close" id="close_search" title="Close Search"></span>
+                    <span class="ti-close" id="close_search" title="Close Search">x</span>
                 </form>
             </div>
-        </div> -->
+        </div>
     </header>
     <!-- Header part end-->
 <!-- banner -->
 <section id="banner">
-    banner
+    <div class="container">
+        <div class="banner-texts">
+            <h5> just dropped!</h5> 
+            <h1>NEW ARRIVALS</h1>
+            <button>Shop Now  >>></button>
+        </div>
+    </div>
+    
 </section>
 <section id="cards">
-    cards
+    
+    <div class="card">
+        <div class="middle-card">
+            <div class="inner-card">
+                <img src="./assets/images/product-1-1.jpg" alt="">
+                <h3 class="brand">oto</h3>
+               <div class="price_cart"><span>Rs200/-</span> <button>Add to cart</button></div>
+            </div>
+        </div>
+    </div>
+
+
+
 </section>
 
 <!-- footer -->

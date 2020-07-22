@@ -1,5 +1,57 @@
 #banner{
+    @include fullImage;
+    font-family: $font_stack_1;
+    background-image: url(../../assets/images/bg-5.jpg);
     margin-top: 81px;
-    height: 400px;
-    background-color: red;
+    height: 490px;
+    // background-position: 0 -220px !important;
+
+    .banner-texts{
+        position: relative;
+        h5{
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            font-size: 40px;
+            font-family: $font_stack_2;
+            color: $black_color ;
+        }
+        h1{
+            position: absolute;
+            top: 210px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            font-size: 60px;
+            font-family: $font_stack_2;
+            color: red;
+        }
+        button{
+            position: absolute;
+            top: 370px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            background-color: transparent;
+            color: $font_1;
+            padding: 10px 35px;
+            border-radius: 20px;
+            font-weight: 600;
+            border: solid 2px $primary-color;
+            font-size: 40px;
+            &:hover{
+                color: $black_color;
+                background-color: rgba(255, 255, 255, 0.329);
+                border: $black_color;
+                transition-duration: 1s;
+                font-weight: 600;
+                
+            }
+
+        }
+
+    }
+
 }

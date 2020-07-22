@@ -1,4 +1,62 @@
 #cards{
     height: 500px;
-    background-color: green;
+
+    
+    .card{
+        background-color: $font_8;
+        width: 200px;
+        height: 300px;
+        position: relative;
+        top: 25px;
+        left: 25px;
+        border: none;
+        border-radius: 10px;
+        .middle-card{
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 200px;
+            height: 300px;
+            background-color: $p_color;
+            border: none;
+            border-radius: 10px;
+            &:hover{
+                top: 4px;
+                left: 4px;
+                transition: ease-in-out .5s;
+            }
+            .inner-card{
+                position: absolute;
+                top: 4px;
+                left: 4px;
+                width: 200px;
+                height: 300px;
+                background-color: $black_color;
+                border: none;
+                border-radius: 10px;
+                overflow: hidden;
+                &:hover{
+                    top: 6px;
+                    left: 6px;
+                    transition: ease-in-out .5s;
+
+                }
+                img{
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 10px;
+
+                }
+                .brand{
+                    color: $white;
+                    text-align: center;
+                }
+            }
+        }
+        
+    }
+
+
+
+
 }

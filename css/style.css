@@ -547,16 +547,19 @@ footer .contact .social .social-media img:hover {
 }
 
 #cards {
-  height: 500px;
+  margin: 50px 0;
+  font-family: "Roboto", sans-serif;
 }
 
 #cards .card {
+  margin: 13px 10px;
   background-color: #888888;
   width: 200px;
   height: 300px;
   position: relative;
-  top: 25px;
-  left: 25px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   border: none;
   border-radius: 10px;
 }
@@ -589,6 +592,8 @@ footer .contact .social .social-media img:hover {
   border: none;
   border-radius: 10px;
   overflow: hidden;
+  -webkit-box-shadow: 5px 6px 11px -2px;
+          box-shadow: 5px 6px 11px -2px;
 }
 
 #cards .card .middle-card .inner-card:hover {
@@ -596,6 +601,8 @@ footer .contact .social .social-media img:hover {
   left: 6px;
   -webkit-transition: ease-in-out .5s;
   transition: ease-in-out .5s;
+  -webkit-box-shadow: 5px 6px 13px 1px;
+          box-shadow: 5px 6px 13px 1px;
 }
 
 #cards .card .middle-card .inner-card img {
@@ -607,5 +614,67 @@ footer .contact .social .social-media img:hover {
 #cards .card .middle-card .inner-card .brand {
   color: #fff;
   text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  bottom: 25px;
+  right: 5px;
+}
+
+#cards .card .middle-card .inner-card .price_cart {
+  margin-top: 20px;
+}
+
+#cards .card .middle-card .inner-card .price_cart .original_price {
+  color: red;
+  position: absolute;
+  bottom: 50px;
+  left: 6px;
+}
+
+#cards .card .middle-card .inner-card .price_cart .original_price::before {
+  content: ' ';
+  position: absolute;
+  background-color: red;
+  width: 1px;
+  height: 55px;
+  bottom: -18px;
+  left: 25px;
+  -webkit-transform: rotate(75deg);
+          transform: rotate(75deg);
+}
+
+#cards .card .middle-card .inner-card .price_cart .offer_price {
+  color: green;
+  position: absolute;
+  bottom: 15px;
+  left: 6px;
+}
+
+#cards .card .middle-card .inner-card .price_cart .offer_price:hover {
+  font-weight: 600;
+}
+
+#cards .card .middle-card .inner-card button {
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background-color: #1d1c1c;
+  color: #f6f6f6;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-weight: 600;
+  border-color: #f6f6f6;
+}
+
+#cards .card .middle-card .inner-card button:hover {
+  color: #000;
+  background-color: #f6f6f6;
+  border: #000;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */

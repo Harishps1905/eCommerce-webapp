@@ -1,14 +1,16 @@
 #cards{
-    height: 500px;
-
+   
+    margin: 50px 0;
+    font-family: $font_stack_1;
     
     .card{
+        margin: 13px 10px;
         background-color: $font_8;
         width: 200px;
         height: 300px;
         position: relative;
-        top: 25px;
-        left: 25px;
+        left: 50%;
+        transform: translateX(-50%);
         border: none;
         border-radius: 10px;
         .middle-card{
@@ -35,11 +37,12 @@
                 border: none;
                 border-radius: 10px;
                 overflow: hidden;
+                box-shadow: 5px 6px 11px -2px;
                 &:hover{
                     top: 6px;
                     left: 6px;
                     transition: ease-in-out .5s;
-
+                    box-shadow: 5px 6px 13px 1px;
                 }
                 img{
                     width: 200px;
@@ -50,6 +53,62 @@
                 .brand{
                     color: $white;
                     text-align: center;
+                    font-size: 30px;
+                    font-weight: bolder;
+                    position: absolute;
+                    bottom: 25px;
+                    right: 5px;
+                }
+                .price_cart{
+                    margin-top: 20px;
+                    .original_price{
+                        color: red;
+                        position: absolute;
+                        bottom: 50px;
+                        left: 6px;
+                        &::before{
+                            content: ' ';
+                            position: absolute;
+                            background-color: red;
+                            width: 1px;
+                            height: 55px;
+                            bottom: -18px;
+                            left: 25px;
+                            transform: rotate(75deg)
+                        }
+                    }
+                    .offer_price{
+                        color: green;
+                        position: absolute;
+                        bottom: 15px;
+                        left: 6px;
+                        &:hover{
+                            font-weight: 600;
+                        }
+                       
+                    }
+                   
+                }
+                button{
+                    position: absolute;
+                    top: 180px;
+                    left: 50%;
+                    transform: translate(-50%);
+                    background-color: rgb(29, 28, 28);
+                    color: $offwhite;
+                    padding: 10px 25px;
+                    border-radius: 20px;
+                    font-weight: 600;
+                    border-color: $offwhite;
+                    
+                    &:hover{
+                        color: $black_color;
+                        background-color: $offwhite;
+                        border: $black_color;
+                        transition-duration: 1s;
+                        font-weight: 600;
+                        
+                    }
                 }
             }
         }

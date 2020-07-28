@@ -1,0 +1,120 @@
+#login{
+    margin-top: 210px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    .register_layout{
+        background-color: #ff005a;
+        background-image: linear-gradient(16deg, #ff005a -8%, #ff5d2d 106%, #ffba00 84%);
+        max-width: 540px;
+        height: 600px;
+        color: white;
+        text-align: center;
+        position: relative;
+        .inner_reg_layout{
+            padding: 230px 0;
+            h4{
+                font-size: 24px;
+                font-weight: 700;
+                padding: 10px 0;
+    
+            }
+            p{
+                padding: 10px 55px 20px 55px;
+                font-weight: 500;
+                line-height: 24px;
+            }
+            button{
+               
+                background-color: transparent;
+                border-radius: 20px;
+                border: #ffffff solid 1px;
+                text-transform: uppercase;
+                padding: 10px 30px;
+                font-size: 14px;
+                letter-spacing: -0.5px;
+                font-weight: 500;
+                color: #ffffff;
+                &:hover{
+                    background-color: white;
+                    color: $btn_bg;
+                    transition: ease-in 0.3s;
+                }
+            }
+        }
+    }
+    .login_layout{
+        height: 600px;
+        color: $font_7;
+        .inner_login_layout{
+            padding: 100px 70px;
+            h4{
+                font-size: 26px;
+                font-weight: 700;
+                line-height: 36px;
+                color: black;
+            }
+            .input-cmn{
+                margin: 20px 0;
+                padding: 10px 20px 10px 5px;
+                width: 400px;
+                border: none;
+                border-bottom: $font_7 solid 1px;
+            }
+            .check{
+                padding: 20px 0;
+            }
+            button{
+                   
+                background-color: $btn_bg;
+                border-radius: 20px;
+                border: #ffffff solid 1px;
+                text-transform: uppercase;
+                padding: 15px 175px;
+                font-size: 14px;
+                letter-spacing: -0.5px;
+                font-weight: 500;
+                color: #ffffff;
+                &:hover{
+                    background-color: red;
+                    color: $btn_bg;
+                    transition: ease-in 0.5s;
+                    color: white;
+                }
+            }
+            .forgot-pass{
+                padding: 20px 0;
+                text-align: right;
+                a{
+                    text-decoration: none;
+                    color: $font_7;
+                }
+            }
+        }
+
+    }
+
+}
+@media (max-width: 575.98px) {
+    #login{
+    margin-top: 110px;
+        .register_layout{
+            height: 500px!important;
+            .inner_reg_layout{
+                padding: 130px 0!important;
+            }
+        
+        }
+        .inner_login_layout{
+            padding: 100px 5px!important;
+            .input-cmn{
+                width: 300px!important;
+                
+            }
+            button{
+                padding: 15px 130px!important;
+
+            }
+        }
+    }
+    
+}

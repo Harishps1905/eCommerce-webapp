@@ -422,9 +422,8 @@ footer .footer-head {
 
 footer .footer-mail {
   background-color: transparent;
-  border-color: #000;
-  border-bottom-color: #f6f6f6;
-  border-radius: 3.9px;
+  border: none;
+  border-bottom: #f6f6f6 solid 1px;
   width: 250px;
   height: 50px;
 }
@@ -676,5 +675,135 @@ footer .contact .social .social-media img:hover {
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   font-weight: 600;
+}
+
+#login {
+  margin-top: 210px;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#login .register_layout {
+  background-color: #ff005a;
+  background-image: linear-gradient(16deg, #ff005a -8%, #ff5d2d 106%, #ffba00 84%);
+  max-width: 540px;
+  height: 600px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+#login .register_layout .inner_reg_layout {
+  padding: 230px 0;
+}
+
+#login .register_layout .inner_reg_layout h4 {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+#login .register_layout .inner_reg_layout p {
+  padding: 10px 55px 20px 55px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+#login .register_layout .inner_reg_layout button {
+  background-color: transparent;
+  border-radius: 20px;
+  border: #ffffff solid 1px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+#login .register_layout .inner_reg_layout button:hover {
+  background-color: white;
+  color: #2f7dfc;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+#login .login_layout {
+  height: 600px;
+  color: #777777;
+}
+
+#login .login_layout .inner_login_layout {
+  padding: 100px 70px;
+}
+
+#login .login_layout .inner_login_layout h4 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 36px;
+  color: black;
+}
+
+#login .login_layout .inner_login_layout .input-cmn {
+  margin: 20px 0;
+  padding: 10px 20px 10px 5px;
+  width: 400px;
+  border: none;
+  border-bottom: #777777 solid 1px;
+}
+
+#login .login_layout .inner_login_layout .check {
+  padding: 20px 0;
+}
+
+#login .login_layout .inner_login_layout button {
+  background-color: #2f7dfc;
+  border-radius: 20px;
+  border: #ffffff solid 1px;
+  text-transform: uppercase;
+  padding: 15px 175px;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+#login .login_layout .inner_login_layout button:hover {
+  background-color: red;
+  color: #2f7dfc;
+  -webkit-transition: ease-in 0.5s;
+  transition: ease-in 0.5s;
+  color: white;
+}
+
+#login .login_layout .inner_login_layout .forgot-pass {
+  padding: 20px 0;
+  text-align: right;
+}
+
+#login .login_layout .inner_login_layout .forgot-pass a {
+  text-decoration: none;
+  color: #777777;
+}
+
+@media (max-width: 575.98px) {
+  #login {
+    margin-top: 110px;
+  }
+  #login .register_layout {
+    height: 500px !important;
+  }
+  #login .register_layout .inner_reg_layout {
+    padding: 130px 0 !important;
+  }
+  #login .inner_login_layout {
+    padding: 100px 5px !important;
+  }
+  #login .inner_login_layout .input-cmn {
+    width: 300px !important;
+  }
+  #login .inner_login_layout button {
+    padding: 15px 130px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */

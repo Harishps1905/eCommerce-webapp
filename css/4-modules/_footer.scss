@@ -25,9 +25,8 @@ footer{
     }
     .footer-mail{
         background-color: transparent;
-        border-color: $black_color;
-        border-bottom-color: $offwhite;
-        border-radius: 3.9px;
+        border: none;
+        border-bottom: $offwhite solid 1px;
         width: 250px;
         height: 50px;
         &::placeholder{

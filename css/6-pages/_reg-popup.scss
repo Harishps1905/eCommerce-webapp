@@ -1,0 +1,65 @@
+#reg-popup{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vmin;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+
+    .reg-model-pop{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #ff005a;
+        background-image: linear-gradient(16deg, #ff005a -8%, #ff5d2d 106%, #ffba00 84%);
+        padding: 60px;
+        border-radius: 20px;
+        .close-btn{
+            position: absolute;
+            top: 18px;
+            right: 20px;
+        }
+        h4{
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 36px;
+            color: white;
+        }
+        .input-cmn{
+            margin: 20px 0;
+            padding: 10px 20px 10px 5px;
+            width: 400px;
+            border: none;
+            border-bottom: white solid 1px;
+            background-color: transparent;
+            color: white;
+            &::placeholder{
+                color: white;
+            }
+        }
+        .check{
+            padding: 20px 0;
+            color: white;
+        }
+        button{
+                
+            background-color: transparent;
+            border-radius: 20px;
+            border: #ffffff solid 1px;
+            text-transform: uppercase;
+            padding: 15px 175px;
+            font-size: 14px;
+            letter-spacing: -0.5px;
+            font-weight: 500;
+            color: #ffffff;
+            &:hover{
+                background-color: white;
+                color: rgb(218, 20, 53);
+                transition: ease-in 0.5s;
+            }
+        }
+    }
+}

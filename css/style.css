@@ -806,4 +806,90 @@ footer .contact .social .social-media img:hover {
     padding: 15px 130px !important;
   }
 }
+
+#reg-popup {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vmin;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+#reg-popup .reg-model-pop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #ff005a;
+  background-image: linear-gradient(16deg, #ff005a -8%, #ff5d2d 106%, #ffba00 84%);
+  padding: 60px;
+  border-radius: 20px;
+}
+
+#reg-popup .reg-model-pop .close-btn {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+}
+
+#reg-popup .reg-model-pop h4 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 36px;
+  color: white;
+}
+
+#reg-popup .reg-model-pop .input-cmn {
+  margin: 20px 0;
+  padding: 10px 20px 10px 5px;
+  width: 400px;
+  border: none;
+  border-bottom: white solid 1px;
+  background-color: transparent;
+  color: white;
+}
+
+#reg-popup .reg-model-pop .input-cmn::-webkit-input-placeholder {
+  color: white;
+}
+
+#reg-popup .reg-model-pop .input-cmn:-ms-input-placeholder {
+  color: white;
+}
+
+#reg-popup .reg-model-pop .input-cmn::-ms-input-placeholder {
+  color: white;
+}
+
+#reg-popup .reg-model-pop .input-cmn::placeholder {
+  color: white;
+}
+
+#reg-popup .reg-model-pop .check {
+  padding: 20px 0;
+  color: white;
+}
+
+#reg-popup .reg-model-pop button {
+  background-color: transparent;
+  border-radius: 20px;
+  border: #ffffff solid 1px;
+  text-transform: uppercase;
+  padding: 15px 175px;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+#reg-popup .reg-model-pop button:hover {
+  background-color: white;
+  color: #da1435;
+  -webkit-transition: ease-in 0.5s;
+  transition: ease-in 0.5s;
+}
 /*# sourceMappingURL=style.css.map */

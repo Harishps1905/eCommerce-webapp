@@ -9,7 +9,7 @@ let closeSearch = document.querySelector('#close_search');
 
 closeSearch.addEventListener('click', function () {
     searchBox.style.visibility = 'hidden';
-})
+});
 // document.getElementById("search-btn").onclick = function() {myFunction()};
 
 // function myFunction() {

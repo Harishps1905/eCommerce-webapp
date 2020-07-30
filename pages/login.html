@@ -110,7 +110,7 @@
                     <div class="inner_reg_layout">
                         <h4>New to our Shop?</h4>
                         <p>There are advances being made in science and technology everyday, and a good example of this is the</p>
-                        <button>create an account</button>
+                        <button id="reg-popbtn">create an account</button>
                     </div>
                 </div>
             </div>
@@ -129,6 +129,21 @@
     </div>
 
 </section>
+
+
+<!-- register popup start-->
+<section id="reg-popup">
+        <form class="reg-model-pop" action="">
+            <div class="close-btn">X</div>
+            <h4>Please Register now</h4>
+            <div class="phone-num"><input class="input-cmn" type="tel" placeholder="Mobile Number"></div>
+            <div class="username"><input class="input-cmn" type="text" placeholder="Username"></div>
+            <div class="password"><input class="input-cmn" type="password" placeholder="Password"></div>
+            <div class="check"><input type="checkbox">  Remember me</div>
+            <button>Register</button>
+        </form>
+</section>
+<!-- register popup end-->
 <!-- footer -->
 <footer>
     <div class="container">
@@ -180,6 +195,7 @@
     <script src="../js/libs/jquery-3.4.1.slim.min.js"></script>
     <script src="../js/libs/popper.min.js"></script>
     <script src="../js/libs/bootstrap.min.js"></script>
+    <script src="../js/dev/login.js"></script>
     <script src="../js/dev/app.js"></script>
 </body>
 </html>

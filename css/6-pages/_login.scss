@@ -34,10 +34,18 @@
                 letter-spacing: -0.5px;
                 font-weight: 500;
                 color: #ffffff;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    transition: ease-in-out 1s;
+                }
                 &:hover{
                     background-color: white;
                     color: $btn_bg;
                     transition: ease-in 0.3s;
+                    a{
+                        color: $btn_bg;
+                    }
                 }
             }
         }

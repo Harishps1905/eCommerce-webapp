@@ -1,0 +1,38 @@
+#cart{
+    font-family: $font_stack_1;
+    margin-top: 131px;
+    height: 500px;
+
+    .row-border{
+        border-bottom: rgb(114, 114, 114) 1px solid;
+    }
+    .first-row{
+        background-color: rgb(221, 219, 219);
+        margin-bottom: 30px;
+    }
+    .top-col-style{
+        border: gray 1px solid;
+        text-align: center;
+        font-weight: 700;
+        padding: 3px;
+    }
+    .main-row{
+        border-bottom: gray 1px solid;
+        border-top: gray 1px solid;
+    }
+    .main-col-style{
+        text-align: center;
+        margin: auto;;
+    }
+    .bin{
+        width: 20px;
+        height: auto;
+    }
+    .product-img{
+        width: 60px;
+        height: auto;
+    }
+
+
+
+}

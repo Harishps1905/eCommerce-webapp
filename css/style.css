@@ -332,7 +332,8 @@ table {
 #banner {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: center center;
+  background-attachment: fixed;
   font-family: "Roboto", sans-serif;
   background-image: url(../../assets/images/bg.jpg);
   margin-top: 81px;
@@ -914,5 +915,47 @@ footer .contact .social .social-media img:hover {
   .reg-model-pop button {
     padding: 15px 75px !important;
   }
+}
+
+#cart {
+  font-family: "Roboto", sans-serif;
+  margin-top: 131px;
+  height: 500px;
+}
+
+#cart .row-border {
+  border-bottom: #727272 1px solid;
+}
+
+#cart .first-row {
+  background-color: #dddbdb;
+  margin-bottom: 30px;
+}
+
+#cart .top-col-style {
+  border: gray 1px solid;
+  text-align: center;
+  font-weight: 700;
+  padding: 3px;
+}
+
+#cart .main-row {
+  border-bottom: gray 1px solid;
+  border-top: gray 1px solid;
+}
+
+#cart .main-col-style {
+  text-align: center;
+  margin: auto;
+}
+
+#cart .bin {
+  width: 20px;
+  height: auto;
+}
+
+#cart .product-img {
+  width: 60px;
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */

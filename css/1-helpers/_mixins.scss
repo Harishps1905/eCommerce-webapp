@@ -1,7 +1,8 @@
 @mixin fullImage {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 @mixin transition5 {

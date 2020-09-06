@@ -335,7 +335,7 @@ table {
   background-position: center center;
   background-attachment: fixed;
   font-family: "Roboto", sans-serif;
-  background-image: url(../../assets/images/bg.jpg);
+  background-image: url(../assets/images/bg.jpg);
   margin-top: 81px;
   height: 490px;
 }
@@ -920,7 +920,6 @@ footer .contact .social .social-media img:hover {
 #cart {
   font-family: "Roboto", sans-serif;
   margin-top: 131px;
-  height: 500px;
 }
 
 #cart .row-border {
@@ -942,6 +941,7 @@ footer .contact .social .social-media img:hover {
 #cart .main-row {
   border-bottom: gray 1px solid;
   border-top: gray 1px solid;
+  margin-bottom: 15px;
 }
 
 #cart .main-col-style {

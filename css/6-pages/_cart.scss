@@ -1,7 +1,6 @@
 #cart{
     font-family: $font_stack_1;
     margin-top: 131px;
-    height: 500px;
 
     .row-border{
         border-bottom: rgb(114, 114, 114) 1px solid;
@@ -19,6 +18,7 @@
     .main-row{
         border-bottom: gray 1px solid;
         border-top: gray 1px solid;
+        margin-bottom: 15px;
     }
     .main-col-style{
         text-align: center;

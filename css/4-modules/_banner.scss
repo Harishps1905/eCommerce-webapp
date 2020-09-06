@@ -1,7 +1,7 @@
 #banner{
     @include fullImage;
     font-family: $font_stack_1;
-    background-image: url(../../assets/images/bg.jpg);
+    background-image: url(../assets/images/bg.jpg);
     margin-top: 81px;
     height: 490px;
     // background-position: 0 -220px !important;
